@@ -1,0 +1,33 @@
+.skillSet {
+  width: 38%;
+}
+
+.skillSet > :first-child {
+  display: flex;
+  align-items: center;
+  font-family: "Caladea", cursive;
+  font-size: 1.3rem;
+  color: rgb(228, 228, 228);
+}
+
+.skillSet > :first-child > .skillSet__img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.skillSet > :last-child {
+  height: 20px;
+  margin: 5px 0;
+  border-radius: 20px;
+  background-color: rgb(228, 228, 228);
+  position: relative;
+}
+
+.skillSet > :last-child > .skillSet__progressValue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}

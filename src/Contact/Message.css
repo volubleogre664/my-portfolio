@@ -1,0 +1,30 @@
+.message {
+  padding: 15px 20px;
+  width: fit-content;
+  max-width: 80%;
+  margin-bottom: 40px; 
+  border-radius: 20px;
+  box-shadow: 2px 1.5px 1.5px rgba(0, 0, 0, 0.2), -2px -1.5px 1.5px rgba(255, 255, 255, 0.25);
+}
+
+.message > .message__text{
+  width: fit-content;
+  font-size: 0.74rem;
+  font-family: "arial", sans-serif;
+  color: rgb(212, 212, 212);
+}
+
+.heading {
+  width: 60%;
+  margin: auto;
+  background: #5b6e83;
+} 
+
+.sent {
+  margin-left: auto;
+  background: rgba(58, 28, 113, 0.15);
+}
+
+.recieved {
+  background: rgba(255, 175, 123, 0.1)
+}

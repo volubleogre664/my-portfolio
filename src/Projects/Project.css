@@ -1,0 +1,168 @@
+.project {
+  width: 90%;
+  flex: 1;
+  align-self: center;
+  overflow-y: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-top: 1%;
+}
+
+.project::-webkit-scrollbar {
+  display: none;
+}
+
+.project > .project__hero {
+  padding: 50px;
+  padding-top: 65px;
+  min-height: 60%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(215, 109, 119, 0.2);
+  font-family: "sabofilled", serif;
+}
+
+.project > .project__hero > .project__heroTitle {
+  font-size: 4.5rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.project > .project__intro {
+  width: 60%;
+  padding: 50px 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.project > .project__intro > .project__introTitle {
+  text-align: center;
+  font-family: "Roboto mono", monospace;
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.project > .project__intro > .project__introDescription {
+  width: 80%;
+  font-family: "Caladea", cursive;
+  font-size: larger;
+  color: rgb(202, 202, 202);
+  margin: auto;
+}
+
+.project > .project__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.project > .project__body > .project__bodyItem {
+  width: 40%;
+}
+
+.project > .project__body > .project__bodyItem h1,
+.project > .project__body > .project__bodyItem h2 {
+  font-family: "Roboto mono", monospace;
+  margin: 5px;
+  color: rgb(236, 236, 236);
+}
+
+.project > .project__body > .project__bodyItem > .project__bodyItemImg {
+  width: 100%;
+  object-fit: contain;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > .techItems {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > .techItems
+  > li {
+  width: 25%;
+  color: rgb(202, 202, 202);
+  font-weight: bold;
+  font-family: "Caladea", cursive;
+  display: flex;
+  align-items: center;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > .techItems
+  .techItems__icon {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > .itemDetails {
+  font-size: 1.1rem;
+  font-family: "Caladea", cursive;
+  color: rgb(219, 219, 219);
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > a {
+  display: block;
+  margin: auto;
+  text-decoration: none;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > a
+  > .btn {
+  width: 30%;
+  background: rgb(236, 236, 236);
+  margin: 8px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.project
+  > .project__body
+  > .project__bodyItem
+  > .project__bodyItemDescription
+  > a
+  > .btn
+  .prview {
+  margin-right: 8px;
+}
+
+.project > .project__footer {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(202, 202, 202);
+  font-family: "Caladea", cursive;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,148 @@
+.about {
+  width: 90%;
+  flex: 1;
+  overflow-y: auto;
+  align-self: center;
+  margin-top: 1%;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
+}
+
+.about > .about__hero {
+  padding: 50px 0;
+  padding-top: 65px;
+  min-height: 60%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(215, 109, 119, 0.2);
+  font-family: "sabofilled", serif;
+}
+
+.about > .about__hero > .about__heroTitle {
+  font-size: 4.5rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.about > .about__body > .about__bodyIntro {
+  width: 65%;
+  padding: 50px 20px;
+  font-family: "Caladea", cursive;
+  color: rgb(30, 30, 30);
+  margin: auto;
+}
+
+.about > .about__body > .about__bodyIntro > .about__bodyIntroTitle {
+  text-align: center;
+  font-family: "Roboto mono", monospace;
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.about > .about__body > .about__bodyIntro > .about__bodyIntroDescription {
+  width: 80%;
+  font-family: "Caladea", cursive;
+  font-size: larger;
+  color: rgb(202, 202, 202);
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.about > .about__body > .about__bodyIntro > figure {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all ease-in 0.5s;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 5px 23px 0 rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 5px;
+}
+
+.about > .about__body > .about__bodyIntro > figure > figcaption {
+  margin-left: 70%;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.about > .about__body > .about__bodySkills {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.about > .about__body > .about__bodySkills > h1 {
+  font-size: 2.5rem;
+  font-family: "Roboto momo", monospace;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about > .about__body > .about__bodySkills > .about__bodySkillsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about > .about__body > .about__bodyFooter {
+  padding: 50px 0;
+  padding-top: 0;
+  width: 80%;
+  margin: auto;
+}
+
+.about > .about__body > .about__bodyFooter > .about__bodyFooterText {
+  text-align: center;
+  color: rgb(202, 202, 202);
+  font-size: x-large;
+  font-family: "Roboto mono", monospace;
+  margin-bottom: 15px;
+}
+
+.about > .about__body > .about__bodyFooter > .about__bodyFooterForm {
+  width: 70%;
+  display: flex;
+  height: 40px;
+  padding: 5px;
+  margin: auto;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about > .about__body > .about__bodyFooter > .about__bodyFooterForm > .input {
+  flex: 1;
+  font-size: 1.3rem;
+  font-family: "Caladea", cursive;
+  padding-left: 8px;
+  outline-width: 0;
+  height: 100%;
+}
+
+.about > .about__body > .about__bodyFooter > .about__bodyFooterForm > .btn {
+  background: transparent;
+  margin-left: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.about
+  > .about__body
+  > .about__bodyFooter
+  > .about__bodyFooterForm
+  > .btn
+  .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  color: #fff;
+}
